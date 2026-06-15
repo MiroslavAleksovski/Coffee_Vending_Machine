@@ -1,0 +1,17 @@
+1. Descripe which techs you would use if you are building a real-life app ?
+	Multy layer architecture as it is now, with addition of the View part, the API/Controller layer. 
+	So 4 layers would exists, View, Service, Repository, ORM and the database as separate entity. 
+	If the app is complex enough, the microservice architecture can be used.
+	If there is a need for distributed caching then we can use Redis caching.
+	We can have standalone WebUI application, hosted on cloud as separate microservice.
+	SignalR can be used if we need to show some real-time updates.
+	
+2. Describe which cloud services you would have been using in this case of a real-life app?
+	1. Microservice architecture (Docker and Kubenetes)
+	2. Redis cache
+	3. SQL database, or some different database
+	4. Application Insights and/or Log Analytics for loggin purposes
+	5. Key Vaults, for securily storing secrets
+	6. Azure Serice Bus for long lasting processes
+	
+Other features: Authentication, Authorization, Payment
