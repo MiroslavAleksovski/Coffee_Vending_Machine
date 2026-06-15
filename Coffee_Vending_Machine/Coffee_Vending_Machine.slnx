@@ -1,4 +1,7 @@
 <Solution>
+  <Project Path="../Coffee_Vending_Machine.Tests/Coffee_Vending_Machine.Tests.csproj">
+    <Build Solution="Debug|*" Project="false" />
+  </Project>
   <Project Path="../Infrastructure/Infrastructure.csproj" Id="7eaa4780-d891-49f8-842b-24cf0596a19f" />
   <Project Path="../Models/Models.csproj" Id="4bd22380-7a2b-4172-9770-4dc92780deac" />
   <Project Path="../Repositories/Repositories.csproj" Id="15e299b3-726e-4bb9-ba5f-12a7718f6d00" />
