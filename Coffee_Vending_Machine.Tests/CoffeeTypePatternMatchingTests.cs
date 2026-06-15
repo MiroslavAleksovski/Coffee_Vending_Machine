@@ -147,7 +147,7 @@ namespace Coffee_Vending_Machine.Tests
             // Act
             var featureCount = details switch
             {
-                AmericanoDetails => 4, // Milk, Sugar, Caramel, Creamer
+                AmericanoDetails => 4,  // Milk, Sugar, Caramel, Creamer
                 EspressoDetails => 1,   // Sugar only
                 CappuccinoDetails => 3, // Milk, Sugar, Caramel
                 LatteDetails => 3,      // Milk, Sugar, Creamer
