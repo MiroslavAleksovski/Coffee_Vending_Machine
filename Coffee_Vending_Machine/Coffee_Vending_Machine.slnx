@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../Models/Models.csproj" Id="4bd22380-7a2b-4172-9770-4dc92780deac" />
+  <Project Path="../Repositories/Repositories.csproj" Id="15e299b3-726e-4bb9-ba5f-12a7718f6d00" />
+  <Project Path="../Services/Services.csproj" Id="da6a434f-73cb-4d23-9b0a-dd5f13f05c7e" />
+  <Project Path="Coffee_Vending_Machine.csproj" />
+</Solution>
